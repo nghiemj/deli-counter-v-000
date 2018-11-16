@@ -13,7 +13,7 @@ end
 
 def take_a_number(deli_line, "Ada")
   deli_line << new_customer
-  puts "Welcome, #{new_customer}. You are number 1 in line"
+  puts "Welcome, #{string}. You are number 1 in line"
 end
 
 def now_serving
