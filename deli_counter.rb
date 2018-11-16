@@ -15,7 +15,7 @@ def take_a_number(deli_line, new_customer)
   puts "Welcome, #{new_customer}. You are number #{deli_line.size} in line."
 end
 
-def now_serving(deli_line, new_customer)
+def now_serving(deli_line)
   if deli_line.empty?
   puts "There is nobody waiting to be served!"
 else 
