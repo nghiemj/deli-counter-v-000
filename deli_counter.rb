@@ -16,6 +16,6 @@ def take_a_number(deli_line, new_customer)
 end
 
 def now_serving
-  if 
+  if now_serving.empty?
   puts "There is nobody waiting to be served!"
 end
