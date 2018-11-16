@@ -11,7 +11,7 @@ def line(katz_deli)
 end
 
 
-def take_a_number(deli_line, "Ada")
+def take_a_number(deli_line, new_customer)
   deli_line << new_customer
   puts "Welcome, #{new_customer}. You are number 1 in line"
 end
