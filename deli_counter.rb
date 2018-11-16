@@ -14,8 +14,7 @@ end
 def take_a_number(deli_line, new_customer)
   deli_line << new_customer
   #shove new_customer into deli_line
-  #puts "welcome..." string
-  
+  puts "Welcome, #{new_customer}. You are number 1 in line" string
 end
 
 def now_serving
